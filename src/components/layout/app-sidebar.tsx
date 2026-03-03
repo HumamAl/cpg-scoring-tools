@@ -13,6 +13,10 @@ import {
   User,
   ArrowRight,
   Github,
+  Zap,
+  ShieldCheck,
+  FileText,
+  Settings,
 } from "lucide-react";
 
 // ═══════════════════════════════════════════════════════════════════════════
@@ -23,9 +27,11 @@ import {
 // ═══════════════════════════════════════════════════════════════════════════
 
 const navItems = [
-  { href: "/", label: "Dashboard", icon: LayoutDashboard },
-  // Dashboard Builder agent: add 3-5 feature page nav items here.
-  // Example: { href: "/orders", label: "Orders", icon: ShoppingCart },
+  { href: "/", label: "Scoring Dashboard", icon: LayoutDashboard },
+  { href: "/campaign-scorer", label: "Campaign Scorer", icon: Zap },
+  { href: "/brand-health", label: "Brand Health Scorer", icon: ShieldCheck },
+  { href: "/scorecards", label: "Scorecards", icon: FileText },
+  { href: "/settings", label: "Settings", icon: Settings },
 ];
 
 function SidebarLogo({ collapsed }: { collapsed: boolean }) {
