@@ -1,6 +1,6 @@
 Hi,
 
-Your scoring tools are built — the Anthropic API key just needs to move server-side before this goes to your team. I built a working version of this before reaching out: {VERCEL_URL}
+Your scoring tools are built — the Anthropic API key just needs to move server-side before this goes to your team. I built a working version of this before reaching out: https://cpg-scoring-tools.vercel.app
 
 Demo shows Clerk.dev login, two protected tool pages, and the Next.js API proxy routing Anthropic calls server-side — key never touches the browser bundle.
 

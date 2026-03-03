@@ -6,7 +6,7 @@
 
 $450 fixed — Clerk.dev auth, Next.js API proxy for the Anthropic key, Vercel deployment with HTTPS, and private GitHub repo handoff, delivered in 4–5 days.
 
-Built a working demo of this exact architecture: {VERCEL_URL}
+Built a working demo of this exact architecture: https://cpg-scoring-tools.vercel.app
 
 ---
 
@@ -14,7 +14,7 @@ Built a working demo of this exact architecture: {VERCEL_URL}
 
 Clerk.dev + Vercel — your exact preference. Clerk handles session management, JWT validation, and the middleware auth guard with minimal setup. Vercel gives HTTPS out of the box and zero-config Next.js deploys.
 
-The demo at {VERCEL_URL} runs this exact stack.
+The demo at https://cpg-scoring-tools.vercel.app runs this exact stack.
 
 ---
 
@@ -28,7 +28,7 @@ Create a Next.js API route (e.g., `/api/score`) that reads `ANTHROPIC_API_KEY` f
 
 WMF Agent Dashboard — https://wmf-agent-dashboard.vercel.app — uses authenticated Next.js API routes for the Claude API pipeline and a human-in-the-loop approval workflow.
 
-The demo at {VERCEL_URL} is the direct equivalent for your use case.
+The demo at https://cpg-scoring-tools.vercel.app is the direct equivalent for your use case.
 
 ---
 
